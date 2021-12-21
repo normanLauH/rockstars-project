@@ -41,8 +41,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt.token_blacklist',
     'drf_yasg',
     'users',
-    'store',
-    'restaurant',
+    'tasks',
 ]
 
 MIDDLEWARE = [
@@ -82,11 +81,11 @@ WSGI_APPLICATION = 'auth.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': env.get('PSQL_DBNAME'),
-        'USER': env.get('PSQL_USERNAME'),
-        'PASSWORD': env.get('PSQL_PASS'),
-        'HOST': env.get('PSQL_HOST'),
-        'PORT': env.get('PSQL_PORT'), # 'PORT': 5432
+        'NAME': 'norman_heredia_d',
+        'USER': 'norman_heredia',
+        'PASSWORD': 'pass',
+        'HOST': '104.237.129.63',
+        'PORT': '5521', # 'PORT': 5432
     }
 }
 

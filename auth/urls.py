@@ -20,9 +20,8 @@ schema_view = get_schema_view(
 )
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/store/', include('store.urls')),
     path('api/users/', include('users.urls')),
-    path('api/restaurant/', include('restaurant.urls')),
+    path('api/tasks/', include('tasks.urls')),
 ]
 
 # JWT URLs
