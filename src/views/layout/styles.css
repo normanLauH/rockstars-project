@@ -1,0 +1,45 @@
+.content {
+    flex: 1 1 auto;
+}
+
+.header {
+    width:100%;
+    height: 50px;
+    background-color: #81B214;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1.2rem;
+    flex: 0 1 auto;
+}
+
+.header svg {
+    padding: 0 5px;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.header-logout {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 100%;
+    transition: .5s;
+    padding-right: 10px;
+}
+.header-logout:hover{
+    cursor: pointer;
+    background-color: #4e9b2f;
+}
+
+.layout {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

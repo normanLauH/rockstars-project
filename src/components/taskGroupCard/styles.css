@@ -1,0 +1,61 @@
+.card {
+    width: 300px;
+    background-color: #F1F1E8;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-group {
+    font-size: 1.5rem;
+    transition: 1s;
+}
+.edit-group:hover {
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.edit-group svg {
+    padding: 10px;
+}
+
+.card-title {
+    margin: 0;
+    padding: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+}
+.task:hover {
+    background-color: #cecec3;
+}
+
+.task-description {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.task-description-shown {
+    background-color: #cecec3;
+}
+
+.task-name {
+    padding: 10px;
+    margin: 0;
+}
+
+.tasks-list {
+    height: 250px;
+    overflow: auto;
+}
+
+.users {
+    margin: 0 20px;
+    color: rgb(118, 118, 118);
+    font-style: italic;
+}

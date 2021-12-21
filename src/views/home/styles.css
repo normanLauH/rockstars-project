@@ -1,0 +1,13 @@
+.home {
+    height: 100%;
+    background-color: #206A5D;
+}
+
+.tasksGroups-container {
+    padding: 50px;
+    padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
